@@ -1,11 +1,11 @@
+os: osx
 language: python
 python: 3.6
-os: osx
 
 install: make
 
 before_install:
-  - pip install poetry
+        - pip install poetry
 
 lint:
-        make lint
+        - make lint
