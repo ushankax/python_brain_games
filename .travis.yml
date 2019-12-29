@@ -13,5 +13,4 @@ install:
 script:
   - make check
 
-lint:
-  - make lint
+script: make lint
