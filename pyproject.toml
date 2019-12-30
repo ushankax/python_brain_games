@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ushankax_brain_games"
-version = "0.1.4"
+version = "0.1.5"
 description = ""
 authors = ["ushankax"]
 packages = [
@@ -9,7 +9,6 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.6"
-prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^3.6"
