@@ -15,7 +15,6 @@ def main():
     winner = ('Congratulations, ' + name + '!')
     i = 1
     x = randint
-    result = ''
 
     while i < 4:
         string = x(1, 100)
@@ -26,7 +25,7 @@ def main():
             print(correct_answer)
         elif answer == 'no' and string % 2 != 0:
             print(correct_answer)
-        else: 
+        else:
             print(incorrect_answer)
             print(try_again)
             break
