@@ -1,19 +1,15 @@
 import prompt
-import random
-from operator import add, sub, mul
 from brain_games.cli import calc_welcome
 from brain_games.games.games_logic import random_exp, answer
 
 
 def main():
     calc_welcome()
-
     name = prompt.string('May i have your name: ')
     print('Hello, ' + name + '!')
     print('')  
-
     i = 1
-   
+
 
     while i < 5:
         if i == 4:
