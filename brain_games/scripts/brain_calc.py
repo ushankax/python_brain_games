@@ -7,7 +7,7 @@ def main():
     calc_welcome()
     name = prompt.string('May i have your name: ')
     print('Hello, ' + name + '!')
-    print('') 
+    print('')
     i = 1
     winner = ('Congratulations, ' + name + '!')
 
