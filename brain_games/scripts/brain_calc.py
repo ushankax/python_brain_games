@@ -2,7 +2,7 @@ import prompt
 import random
 from operator import add, sub, mul
 from brain_games.cli import calc_welcome
-from brain_games.games_logic import random_exp, answer
+from brain_games.games.games_logic import random_exp, answer
 
 
 def main():
