@@ -12,10 +12,10 @@ def random_exp():
       ('*', mul),
       ))
     result = operation(num1, num2)
-    i = 1
 
     print('Question: {} {} {}'.format(num1, symbol, num2))
     return result
+
 
 def answer():
     answer = prompt.string('Your answer: ')
