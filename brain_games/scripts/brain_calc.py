@@ -16,16 +16,17 @@ def main():
             print(winner)
             break
 
-        real_answer = random_exp()
-        player_answer = answer()
-        incorrect_answer = ('{} is wrong answer. Correct answer was {}.'.format(player_answer, real_answer))
-        correct_answer = 'Correct!'
+        right = random_exp()
+        guess = answer()
+        incorrect_text = 'is wrong answer. Correct answer was'
+        incorrect = ('{} {} {}.'.format(guess, incorrect_text, right))
+        correct = 'Correct!'
         try_again = ("Let's try again, " + name)
 
-        if str(real_answer) == str(player_answer):
-            print(correct_answer)
+        if str(right) == str(guess):
+            print(correct)
         else:
-            print(incorrect_answer)
+            print(incorrect)
             print(try_again)
             break
 
