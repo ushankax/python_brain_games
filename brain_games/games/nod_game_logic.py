@@ -27,6 +27,3 @@ def answering():
     result = greatest_div()
     guess = prompt.string('Your answer: ')
     return str(result) == str(guess)
-
-
-
