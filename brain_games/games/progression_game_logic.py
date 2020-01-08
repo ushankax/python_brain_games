@@ -35,6 +35,7 @@ def is_number():
   return str(answer) == str(real)
 
 
-def welcome_progression():
+def welcome():
     print('Welcome to the Brain Games!')
     print('What number is missing in the progression?')
+    print('')

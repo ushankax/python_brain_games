@@ -1,7 +1,8 @@
 import prompt
 import random
 
-def welcome_nod():
+
+def welcome():
     print('Welcome to the Brain Games!')
     print('Find the greatest common divisor of given numbers.')
     print('')

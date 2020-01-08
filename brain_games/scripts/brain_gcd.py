@@ -1,4 +1,4 @@
-from brain_games.games.nod_game_logic import welcome_nod, greatest_div, answering
+from brain_games.games.nod_game_logic import welcome, answering
 import prompt
 
 
@@ -26,7 +26,7 @@ def game():
 
 
 def main():
-    welcome_nod()
+    welcome()
     game()
 
 
