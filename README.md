@@ -13,3 +13,6 @@
 
 # Brain Progression Game
 <a href="https://asciinema.org/a/wMwyVoStgeCsR8SHJ94yGADHT" target="_blank"><img src="https://asciinema.org/a/wMwyVoStgeCsR8SHJ94yGADHT.svg" /></a>
+
+# Brain Prime Game
+<a href="https://asciinema.org/a/292516" target="_blank"><img src="https://asciinema.org/a/292516.svg" /></a>
