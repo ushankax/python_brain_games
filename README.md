@@ -2,11 +2,14 @@
 
 [![Build Status](https://travis-ci.com/ushankax/python-project-lvl1.svg?branch=master)](https://travis-ci.com/ushankax/python-project-lvl1)
 
-# Brain Even game
+# Brain Even Game
 <a href="https://asciinema.org/a/WC8rzDHmjsdXaBxKI2pURrRKS" target="_blank"><img src="https://asciinema.org/a/WC8rzDHmjsdXaBxKI2pURrRKS.svg" /></a>
 
-# Brain Calc game
+# Brain Calc Game
 <a href="https://asciinema.org/a/EwsNpWKIjb1PMgShQaNKBnoR1" target="_blank"><img src="https://asciinema.org/a/EwsNpWKIjb1PMgShQaNKBnoR1.svg" /></a>
 
-# Brain GCD game
+# Brain NOD Game
 <a href="https://asciinema.org/a/dZUx2isTaWoI7Q00WSexiVDSY" target="_blank"><img src="https://asciinema.org/a/dZUx2isTaWoI7Q00WSexiVDSY.svg" /></a>
+
+# Brain Progression Game
+<a href="https://asciinema.org/a/wMwyVoStgeCsR8SHJ94yGADHT" target="_blank"><img src="https://asciinema.org/a/wMwyVoStgeCsR8SHJ94yGADHT.svg" /></a>
