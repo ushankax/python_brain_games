@@ -25,6 +25,7 @@ def game():
 
         a += 1
 
+
 def main():
     welcome()
     game()
