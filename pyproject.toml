@@ -1,11 +1,16 @@
 [tool.poetry]
 name = "ushankax_brain_games"
-version = "0.2.2"
-description = ""
+version = "0.2.3"
+description = "5 mini-games package"
 authors = ["ushankax"]
 packages = [
     { include = "brain_games" },
   ]
+repository = "https://github.com/ushankax/python-project-lvl1"
+classifiers = [
+  "Topic :: Education",
+  "Topic :: Games/Entertainment"
+]
 
 [tool.poetry.dependencies]
 python = "^3.6"
@@ -17,7 +22,7 @@ flake8 = "^3.6"
   brain-games = "brain_games.scripts.brain_games:main"
   brain-even = "brain_games.scripts.brain_even:main"
   brain-calc = "brain_games.scripts.brain_calc:main"
-  brain-nod = "brain_games.scripts.brain_gcd:main"
+  brain-nod = "brain_games.scripts.brain_nod:main"
   brain-progression = "brain_games.scripts.brain_progression:main"
   brain-prime = "brain_games.scripts.brain_prime:main"
 
