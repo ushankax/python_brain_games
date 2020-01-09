@@ -4,6 +4,7 @@ from random import randint
 import prompt
 from brain_games.games.even_logic import welcome
 
+
 def game():
     name = prompt.string('May i have your name: ')
     print('Hello, ' + name + '!')
@@ -26,7 +27,6 @@ def game():
                 result = "no"
             else:
                 result = "yes"
-
             return result 
 
         not_answer = reverse()
