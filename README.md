@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.com/ushankax/python-project-lvl1.svg?branch=master)](https://travis-ci.com/ushankax/python-project-lvl1)
 
 # Brain Even Game
-<a href="https://asciinema.org/a/WC8rzDHmjsdXaBxKI2pURrRKS" target="_blank"><img src="https://asciinema.org/a/WC8rzDHmjsdXaBxKI2pURrRKS.svg" /></a>
+<a href="https://asciinema.org/a/292713" target="_blank"><img src="https://asciinema.org/a/292713.svg" /></a>
 
 # Brain Calc Game
 <a href="https://asciinema.org/a/EwsNpWKIjb1PMgShQaNKBnoR1" target="_blank"><img src="https://asciinema.org/a/EwsNpWKIjb1PMgShQaNKBnoR1.svg" /></a>
