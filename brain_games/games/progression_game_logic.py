@@ -2,7 +2,7 @@ import prompt
 import random
 
 
-def show_progression():
+def progression():
     number = random.randint(1, 100)
     n = 10
     step = random.randint(1, 10)
@@ -29,9 +29,10 @@ def show_progression():
     return empty_place_number
 
 
-def is_number():
-    real = show_progression()
+def answer():
+    real = progression()
     answer = prompt.string('Your answer: ')
+
     return str(answer) == str(real)
 
 

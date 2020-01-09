@@ -2,17 +2,13 @@
 
 from random import randint
 import prompt
+from brain_games.games.even_logic import welcome
 
-
-def main():
-    print('Welcome to the Brain Games!')
-    print('Answer "yes" if number even otherwise answer "no".')
-    print('')
+def game():
     name = prompt.string('May i have your name: ')
     print('Hello, ' + name + '!')
     print('')
     correct_answer = 'Correct!'
-    incorrect_answer = "'yes' is wrong answer ;(. Correct answer was 'no'."
     try_again = ("Let's try again, " + name)
     winner = ('Congratulations, ' + name + '!')
     i = 1
@@ -23,17 +19,36 @@ def main():
         print('Question: ' + str(string))
         answer = prompt.string('Your answer: ')
 
+        def reverse():
+            result = ''
+
+            if answer == 'yes':
+                result = "no"
+            else:
+                result = "yes"
+
+            return result 
+
+        not_answer = reverse()
+        inc_text = 'is wrong answer ;(. Correct answer was'
+        incorrect = "'{}' {} '{}'".format(answer, inc_text, not_answer)
+
         if answer == 'yes' and string % 2 == 0:
             print(correct_answer)
         elif answer == 'no' and string % 2 != 0:
             print(correct_answer)
         else:
-            print(incorrect_answer)
+            print(incorrect)
             print(try_again)
             break
         i += 1
         if i == 4:
             print(winner)
+
+
+def main():
+    welcome()
+    game()
 
 
 if __name__ == '__main__':

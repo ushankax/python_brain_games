@@ -3,6 +3,13 @@ import prompt
 from operator import add, sub, mul
 
 
+def welcome():
+    print('')
+    print('Welcome to the Brain Games!')
+    print('What is the result of the expression?')
+    print('')
+
+
 def random_exp():
     num1 = random.randint(1, 10)
     num2 = random.randint(1, 10)
@@ -18,6 +25,6 @@ def random_exp():
 
 
 def answer():
-    answer = prompt.string('Your answer: ')
+    guess = prompt.string('Your answer: ')
 
-    return answer
+    return guess

@@ -1,10 +1,8 @@
 import prompt
-from brain_games.cli import calc_welcome
-from brain_games.games.games_logic import random_exp, answer
+from brain_games.games.calc_logic import random_exp, answer, welcome
 
 
-def main():
-    calc_welcome()
+def game():
     name = prompt.string('May i have your name: ')
     print('Hello, ' + name + '!')
     print('')
@@ -31,6 +29,11 @@ def main():
             break
 
         i += 1
+
+
+def main():
+    welcome()
+    game()
 
 
 if __name__ == '__main__':

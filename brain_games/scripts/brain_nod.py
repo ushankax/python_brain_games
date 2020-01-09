@@ -1,4 +1,4 @@
-from brain_games.games.nod_game_logic import welcome, answering
+from brain_games.games.nod_game_logic import welcome, answer
 import prompt
 
 
@@ -15,7 +15,7 @@ def game():
             print(winner)
             break
 
-        correct = answering()
+        correct = answer()
 
         if correct:
             print(correct_answer)

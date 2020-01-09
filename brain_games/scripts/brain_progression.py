@@ -1,5 +1,5 @@
 import prompt
-from brain_games.games.progression_game_logic import welcome, is_number
+from brain_games.games.progression_game_logic import welcome, answer
 
 
 def game():
@@ -16,7 +16,7 @@ def game():
             print(winner)
             break
 
-        correct = is_number()
+        correct = answer()
 
         if correct:
             print(correct_answer)
