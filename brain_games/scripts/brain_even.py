@@ -27,7 +27,7 @@ def game():
                 result = "no"
             else:
                 result = "yes"
-            return result 
+            return result
 
         not_answer = reverse()
         inc_text = 'is wrong answer ;(. Correct answer was'
