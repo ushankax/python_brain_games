@@ -37,7 +37,7 @@ def answer():
     correct_ans = 'Correct!\n'
     incorrect_text = 'is wrong answer. Correct answer was'
     incorrect_ans = ('{} {} {}.'.format(guess, incorrect_text, right))
-    
+
     if str(guess) == str(right):
         print(correct_ans)
         return True
