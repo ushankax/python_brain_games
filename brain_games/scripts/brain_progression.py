@@ -1,38 +1,7 @@
-import prompt
-from brain_games.games.progression_game_logic import welcome, answer
-
-
-def game():
-    name = prompt.string('May i have your name: ')
-    print('Hello, ' + name)
-    print('')
-    incorrect = ('Wrong answer. Try again, ' + name)
-    correct_answer = ('Correct!')
-    winner = ('Congratulations, ' + name + '!')
-    a = 1
-
-    while a <= 4:
-        if a == 4:
-            print(winner)
-            break
-
-        correct = answer()
-
-        if correct:
-            print(correct_answer)
-            print('')
-        else:
-            print(incorrect)
-            print('')
-            break
-
-        a += 1
-
+from brain_games import engine, games
 
 def main():
-    welcome()
-    game()
-
+    engine.run(games.progression)
 
 if __name__ == '__main__':
     main()
