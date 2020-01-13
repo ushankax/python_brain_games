@@ -57,5 +57,6 @@ def answer():
 def main():
     answer()
 
+
 if __name__ == '__main__':
     main()
