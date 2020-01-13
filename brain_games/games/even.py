@@ -20,9 +20,9 @@ def logic():
     num = random.randint(1, 100)
 
     if num % 2 == 0:
-      result = 'yes'
+        result = 'yes'
     else:
-      result = 'no'
+        result = 'no'
 
     print('Question: {}'.format(num))
     return result
@@ -36,18 +36,16 @@ def answer():
     incorrect_ans = ('{} {} {}.'.format(guess, incorrect_text, right))
 
     if str(guess) == str(right):
-      print(correct_ans)
-      return True
+        print(correct_ans)
+        return True
     else:
-      print(incorrect_ans)
-      return False
+        print(incorrect_ans)
+        return False
 
 
 def main():
-  answer()
+    answer()
+
 
 if __name__ == '__main__':
-  main()
-
-
-
+    main()

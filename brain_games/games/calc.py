@@ -2,6 +2,7 @@ import random
 import prompt
 from operator import add, sub, mul
 
+
 def welcome():
     print('')
     print('Welcome to the Brain Games!')
@@ -38,16 +39,16 @@ def answer():
     incorrect_ans = ('{} {} {}.'.format(guess, incorrect_text, right))
     
     if str(guess) == str(right):
-      print(correct_ans)
-      return True
+        print(correct_ans)
+        return True
     else:
-      print(incorrect_ans)
-      return False
+        print(incorrect_ans)
+        return False
 
 
 def main():
-  answer()
+    answer()
 
 
 if __name__ == '__main__':
-  main()
+    main()
