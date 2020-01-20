@@ -1,62 +1,29 @@
 import random
-import prompt
 
-
+# Welcome to the game text:
 def welcome():
-    print('')
-    print('Welcome to the Brain Games!')
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
-    print('')
+    print('\nWelcome to the Brain Games!')
+    print('Answer "yes" if given number is prime. Otherwise answer "no".\n')
 
-
-def hello():
-    player_name = prompt.string('May i have your name: ')
-    print('Hello, ' + player_name + '!')
-    print('')
-    return player_name
-
-
-def logic():
-    n = random.randint(1, 101)
+# Function returns tuple with question and right answer:
+def question_and_answer():
+    num = random.randint(1, 101)
     step = 2
     result = ''
-    question = 'Question: {}'.format(n)
-    print(question)
+    question = 'Question: {}'.format(num)
 
-    while step <= n:
-        if step == n:
-            result = 'yes'
+    while step <= num:
+        if step == num:
+            answer = 'yes'
             break
-        elif n == 1 or n == 2:
-            result = 'yes'
+        elif num == 1 or num == 2:
+            answer = 'yes'
             break
-        elif n % step != 0:
+        elif num % step != 0:
             step += 1
         else:
-            result = 'no'
+            answer = 'no'
             break
 
+    result = (question, answer)
     return result
-
-
-def answer():
-    right = logic()
-    guess = prompt.string('Your answer: ')
-    correct_ans = 'Correct!\n'
-    incorrect_text = 'is wrong answer. Correct answer was'
-    incorrect_ans = ('{} {} {}.'.format(guess, incorrect_text, right))
-
-    if str(guess) == str(right):
-        print(correct_ans)
-        return True
-    else:
-        print(incorrect_ans)
-        return False
-
-
-def main():
-    answer()
-
-
-if __name__ == '__main__':
-    main()

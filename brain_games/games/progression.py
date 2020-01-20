@@ -1,66 +1,33 @@
 import random
-import prompt
 
 
 def welcome():
-    print('')
-    print('Welcome to the Brain Games!')
-    print('What number is missing in the progression?')
-    print('')
+    print('\nWelcome to the Brain Games!')
+    print('What number is missing in the progression?\n')
 
 
-def hello():
-    player_name = prompt.string('May i have your name: ')
-    print('Hello, ' + player_name + '!')
-    print('')
-    return player_name
-
-
-def logic():
-    number = random.randint(1, 100)
-    n = 10
+def question_and_answer():
+    num = random.randint(1, 100)
+    prog_length = 10
     step = random.randint(1, 10)
-    i = 1
+    counter = 1
     empty_place = random.randint(1, 10)
-    empty_place_number = number + empty_place * step
-    result = ''
+    empty_place_number = num + empty_place * step
+    full_progression = ''
 
-    while i <= n:
-        progression = number + i * step
+    while counter <= prog_length:
+        progression = num + counter * step
 
-        if result:
-            result += ' '
+        if full_progression:
+            full_progression += ' '
 
-        if empty_place == i:
-            result += '..'
+        if empty_place == counter:
+            full_progression += '..'
         else:
-            result += str(progression)
+            full_progression += str(progression)
 
-        i += 1
+        counter += 1
 
-    question = 'Question: {}'.format(result)
-    print(question)
-    return empty_place_number
-
-
-def answer():
-    right = logic()
-    guess = prompt.string('Your answer: ')
-    correct_ans = 'Correct!\n'
-    incorrect_text = 'is wrong answer. Correct answer was'
-    incorrect_ans = ('{} {} {}.'.format(guess, incorrect_text, right))
-
-    if str(guess) == str(right):
-        print(correct_ans)
-        return True
-    else:
-        print(incorrect_ans)
-        return False
-
-
-def main():
-    answer()
-
-
-if __name__ == '__main__':
-    main()
+    question = 'Question: {}'.format(full_progression)
+    result = (question, str(empty_place_number))
+    return result

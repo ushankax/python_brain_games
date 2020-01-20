@@ -3,16 +3,16 @@
 [![Build Status](https://travis-ci.com/ushankax/python-project-lvl1.svg?branch=master)](https://travis-ci.com/ushankax/python-project-lvl1)
 
 # Brain Even Game
-<a href="https://asciinema.org/a/292713" target="_blank"><img src="https://asciinema.org/a/292713.svg" /></a>
+<a href="https://asciinema.org/a/294850" target="_blank"><img src="https://asciinema.org/a/294850.svg" /></a>
 
 # Brain Calc Game
-<a href="https://asciinema.org/a/EwsNpWKIjb1PMgShQaNKBnoR1" target="_blank"><img src="https://asciinema.org/a/EwsNpWKIjb1PMgShQaNKBnoR1.svg" /></a>
+<a href="https://asciinema.org/a/294855" target="_blank"><img src="https://asciinema.org/a/294855.svg" /></a>
 
-# Brain NOD Game
-<a href="https://asciinema.org/a/dZUx2isTaWoI7Q00WSexiVDSY" target="_blank"><img src="https://asciinema.org/a/dZUx2isTaWoI7Q00WSexiVDSY.svg" /></a>
+# Brain GCD Game
+<a href="https://asciinema.org/a/294860" target="_blank"><img src="https://asciinema.org/a/294860.svg" /></a>
 
 # Brain Progression Game
-<a href="https://asciinema.org/a/wMwyVoStgeCsR8SHJ94yGADHT" target="_blank"><img src="https://asciinema.org/a/wMwyVoStgeCsR8SHJ94yGADHT.svg" /></a>
+<a href="https://asciinema.org/a/294862" target="_blank"><img src="https://asciinema.org/a/294862.svg" /></a>
 
 # Brain Prime Game
-<a href="https://asciinema.org/a/292516" target="_blank"><img src="https://asciinema.org/a/292516.svg" /></a>
+<a href="https://asciinema.org/a/294867" target="_blank"><img src="https://asciinema.org/a/294867.svg" /></a>
