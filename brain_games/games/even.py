@@ -1,9 +1,11 @@
 import random
 
+
 # Welcome to the game text:
 def welcome():
     print('\nWelcome to the Brain Games!')
     print('Answer "yes" if number even otherwise answer "no".\n')
+
 
 # Function returns tuple with question and right answer:
 def question_and_answer():

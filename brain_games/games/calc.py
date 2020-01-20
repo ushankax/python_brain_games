@@ -1,10 +1,12 @@
 import random
 from operator import add, sub, mul
 
+
 # Welcome to the game text:
 def welcome():
     print('\nWelcome to the Brain Games!')
     print('What is the result of the expression?\n')
+
 
 # Function returns tuple with question and right answer:
 def question_and_answer():
