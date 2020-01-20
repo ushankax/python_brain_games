@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ushankax_brain_games"
-version = "0.2.9"
+version = "0.3.0"
 description = "5 mini-games package"
 authors = ["ushankax"]
 packages = [
