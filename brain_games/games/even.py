@@ -3,7 +3,6 @@ import random
 
 # Welcome to the game text:
 def welcome():
-    print('\nWelcome to the Brain Games!')
     print('Answer "yes" if number even otherwise answer "no".\n')
 
 
@@ -17,6 +16,5 @@ def question_and_answer():
         answer = 'no'
 
     question = ('Question: {}'.format(num))
-    result = (question, answer)
 
-    return result
+    return question, answer

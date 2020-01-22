@@ -3,7 +3,6 @@ import random
 
 # Welcome to the game text:
 def welcome():
-    print('\nWelcome to the Brain Games!')
     print('Find the greatest common divisor of given numbers.\n')
 
 
@@ -15,9 +14,7 @@ def question_and_answer():
     question = ('Question: {} {}'.format(num1, num2))
 
     while greatest_div > 0:
-        result = (question, str(greatest_div))
         if num1 % greatest_div == 0 and num2 % greatest_div == 0:
-            return result
-            break
+            return question, str(greatest_div)
         else:
             greatest_div -= 1

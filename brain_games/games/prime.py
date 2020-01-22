@@ -3,7 +3,6 @@ import random
 
 # Welcome to the game text:
 def welcome():
-    print('\nWelcome to the Brain Games!')
     print('Answer "yes" if given number is prime. Otherwise answer "no".\n')
 
 
@@ -11,7 +10,6 @@ def welcome():
 def question_and_answer():
     num = random.randint(1, 101)
     step = 2
-    result = ''
     question = 'Question: {}'.format(num)
 
     while step <= num:
@@ -27,5 +25,4 @@ def question_and_answer():
             answer = 'no'
             break
 
-    result = (question, answer)
-    return result
+    return question, answer
